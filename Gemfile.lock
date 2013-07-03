@@ -34,6 +34,7 @@ GEM
       tzinfo (~> 0.3.37)
     arel (4.0.0)
     atomic (1.1.10)
+    bcrypt-ruby (3.0.1)
     bootstrap-sass (2.3.2.0)
       sass (~> 3.2)
     builder (3.1.4)
@@ -94,6 +95,7 @@ GEM
     mini_portile (0.5.0)
     minitest (4.7.5)
     multi_json (1.7.7)
+    newrelic_rpm (3.6.5.130)
     nokogiri (1.6.0)
       mini_portile (~> 0.5.0)
     pg (0.15.1)
@@ -188,6 +190,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bcrypt-ruby
   bootstrap-sass
   capybara
   childprocess
@@ -196,6 +199,7 @@ DEPENDENCIES
   guard-spork
   jbuilder (~> 1.2)
   jquery-rails
+  newrelic_rpm
   pg
   rails (= 4.0.0)
   rspec-rails
